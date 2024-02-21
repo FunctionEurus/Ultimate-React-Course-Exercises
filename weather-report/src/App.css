@@ -1,0 +1,151 @@
+Reset some default styles for consistency * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for the entire app container */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Styling for the cities section */
+.cities {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.loader {
+  text-align: center;
+  padding: 20px;
+}
+
+.error {
+  text-align: center;
+  padding: 20px;
+}
+
+.cities h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.city {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+/* Styling for buttons */
+.button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Styling for the weather section */
+.weather {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the form section */
+.form {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.form label {
+  margin: 10px;
+}
+
+/* Input styling */
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Responsive styling for small screens */
+@media screen and (max-width: 600px) {
+  .cities,
+  .weather,
+  .form {
+    margin: 10px;
+  }
+}
+
+/* Responsive styling for medium screens */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .cities,
+  .weather,
+  .form {
+    margin: 15px;
+  }
+}
+
+/* Hover effect for buttons */
+.button:hover {
+  background-color: #45a049;
+}
+
+/* Hover effect for city list items */
+.city:hover {
+  background-color: #f7f7f7;
+}
+
+/* Hover effect for form submit button */
+.form .button:hover {
+  background-color: #45a049;
+}
+
+/* Additional hover effect for links or interactive elements if needed */
+a:hover {
+  text-decoration: underline;
+  color: #007bff;
+}
+
+/* Hover effect for responsive styling */
+@media screen and (max-width: 600px) {
+  .cities:hover,
+  .weather:hover,
+  .form:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .cities:hover,
+  .weather:hover,
+  .form:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+}
